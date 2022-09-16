@@ -28,3 +28,12 @@ function exercise2() {
         console.log(`${word}`);
     });
 }
+
+function exercise3() {
+    var textbox1value = document.getElementById('txt1').value;
+    const words = textbox1value.split(' ');
+
+    words.forEach(word => {
+        
+    })
+}
