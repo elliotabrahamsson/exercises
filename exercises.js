@@ -13,11 +13,15 @@ function exercise1(){
 
 function exercise2() {
     var textbox1value = document.getElementById('txt1').value;
-    const words =textbox1value.split(' ');
+    const words = textbox1value.split(' ');
+    const reversed = words.reverse();
 
-    console.log(words.length);
+    words.sort((a,b) => b.length - a.length);
+    console.log(words);
 
+    reversed.reverse(words);
+    
     words.forEach(word => {
-        console.log(`${word} (${words.reverse})`);
+        console.log(`${word}`);
     });
 }
