@@ -1,0 +1,1 @@
+Har gjort klart uppgift 1 och 2 med hjälp av klasskompisarna. Har försökt själv med uppgift tre och får det att skriva ut varje ord och deras uppreprningar men inte för varje egna rad.
